@@ -1,0 +1,18 @@
+Ground M 1800
+Gosign 100
+
+
+Life 1200 80
+End
+
+Flower 400
+Dinosaur 800
+Dinosaur2 1500
+Dinosaur3 1700
+Bridge
+Ground M 200
+Gap 150
+Stone
+Gap 150
+Ground M 300
+Stopsign 300
