@@ -1,12 +1,12 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.nodes.CCSpriteFrame;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.types.CGSize;
 
-import com.squid.junglerunner.forestrunner.common.Constants;
-import com.squid.junglerunner.forestrunner.common.Game;
+import com.squid.junglerunner.common.Constants;
+import com.squid.junglerunner.common.Game;
 
 public class GameOverStarLayer extends MenuLayer {
 

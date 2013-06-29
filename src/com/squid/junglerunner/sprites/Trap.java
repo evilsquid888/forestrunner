@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import java.util.ArrayList;
 
 import org.cocos2d.nodes.CCSpriteFrame;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class Trap extends GameSprite {
 

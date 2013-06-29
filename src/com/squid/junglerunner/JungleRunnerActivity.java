@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner;
+package com.squid.junglerunner;
 
 import org.cocos2d.layers.CCScene;
 import org.cocos2d.nodes.CCDirector;
@@ -22,20 +22,20 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.RelativeLayout;
 
-import com.squid.junglerunner.forestrunner.common.Constants;
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Levels;
-import com.squid.junglerunner.forestrunner.common.Logger;
-import com.squid.junglerunner.forestrunner.manager.LocalDataManager;
-import com.squid.junglerunner.forestrunner.manager.SceneManager;
-import com.squid.junglerunner.forestrunner.scenes.GameScene;
-import com.squid.junglerunner.forestrunner.scenes.MainScene;
+import com.squid.junglerunner.common.Constants;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Levels;
+import com.squid.junglerunner.common.Logger;
+import com.squid.junglerunner.manager.LocalDataManager;
+import com.squid.junglerunner.manager.SceneManager;
+import com.squid.junglerunner.scenes.GameScene;
+import com.squid.junglerunner.scenes.MainScene;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
 import com.google.ads.AdView;
 
-public class ForestRunnerActivity extends Activity {
-	private static final String TAG = "ForestRunnerActivity";
+public class JungleRunnerActivity extends Activity {
+	private static final String TAG = "JungleRunnerActivity";
 	private CCGLSurfaceView mGLSurfaceView;
 	private BroadcastReceiver mBroadcastReceiver;
 	private LinearLayout layout;
@@ -43,7 +43,7 @@ public class ForestRunnerActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Logger.d(TAG, "ForestRunnerActivity#onCreate.");
+		Logger.d(TAG, "JungleRunnerActivity#onCreate.");
 
 		// set the window status, no tile, full screen and don't sleep
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -159,7 +159,7 @@ public class ForestRunnerActivity extends Activity {
 							@Override
 							public void onClick(DialogInterface dialog,
 									int which) {
-								ForestRunnerActivity.this.finish();
+								com.squid.junglerunner.JungleRunnerActivity.this.finish();
 							}
 						});
 			}

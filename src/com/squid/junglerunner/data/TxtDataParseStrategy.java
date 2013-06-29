@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.data;
+package com.squid.junglerunner.data;
 
 import java.io.InputStream;
 import java.util.Scanner;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.data.LevelData.SpriteData;
-import com.squid.junglerunner.forestrunner.sprites.SpriteType;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.data.LevelData.SpriteData;
+import com.squid.junglerunner.sprites.SpriteType;
 
 public class TxtDataParseStrategy implements ParseStrategy {
 

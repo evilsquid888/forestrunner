@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 public interface SpriteType {
 	public static final int GROUND_L = 0;

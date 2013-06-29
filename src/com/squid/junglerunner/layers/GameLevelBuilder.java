@@ -1,29 +1,29 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import java.util.ArrayList;
 
 import org.cocos2d.nodes.CCNode;
 import org.cocos2d.types.CGPoint;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Logger;
-import com.squid.junglerunner.forestrunner.data.LevelData;
-import com.squid.junglerunner.forestrunner.data.LevelData.SpriteData;
-import com.squid.junglerunner.forestrunner.sprites.Banana;
-import com.squid.junglerunner.forestrunner.sprites.Box;
-import com.squid.junglerunner.forestrunner.sprites.Bridge;
-import com.squid.junglerunner.forestrunner.sprites.Cherry;
-import com.squid.junglerunner.forestrunner.sprites.Dinosaur;
-import com.squid.junglerunner.forestrunner.sprites.Fire;
-import com.squid.junglerunner.forestrunner.sprites.Flower;
-import com.squid.junglerunner.forestrunner.sprites.GameSprite;
-import com.squid.junglerunner.forestrunner.sprites.GoSign;
-import com.squid.junglerunner.forestrunner.sprites.Ground;
-import com.squid.junglerunner.forestrunner.sprites.Life;
-import com.squid.junglerunner.forestrunner.sprites.SpriteType;
-import com.squid.junglerunner.forestrunner.sprites.Stone;
-import com.squid.junglerunner.forestrunner.sprites.StopSign;
-import com.squid.junglerunner.forestrunner.sprites.Trap;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Logger;
+import com.squid.junglerunner.data.LevelData;
+import com.squid.junglerunner.data.LevelData.SpriteData;
+import com.squid.junglerunner.sprites.Banana;
+import com.squid.junglerunner.sprites.Box;
+import com.squid.junglerunner.sprites.Bridge;
+import com.squid.junglerunner.sprites.Cherry;
+import com.squid.junglerunner.sprites.Dinosaur;
+import com.squid.junglerunner.sprites.Fire;
+import com.squid.junglerunner.sprites.Flower;
+import com.squid.junglerunner.sprites.GameSprite;
+import com.squid.junglerunner.sprites.GoSign;
+import com.squid.junglerunner.sprites.Ground;
+import com.squid.junglerunner.sprites.Life;
+import com.squid.junglerunner.sprites.SpriteType;
+import com.squid.junglerunner.sprites.Stone;
+import com.squid.junglerunner.sprites.StopSign;
+import com.squid.junglerunner.sprites.Trap;
 
 public class GameLevelBuilder {
 	private static final String TAG = "GameLevelBuilder";

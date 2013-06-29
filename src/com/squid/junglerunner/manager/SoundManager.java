@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.manager;
+package com.squid.junglerunner.manager;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,8 +8,8 @@ import org.cocos2d.sound.SoundEngine;
 
 import android.content.Context;
 
-import com.squid.junglerunner.forestrunner.R;
-import com.squid.junglerunner.forestrunner.common.Logger;
+import com.squid.junglerunner.R;
+import com.squid.junglerunner.common.Logger;
 
 /**
  * 

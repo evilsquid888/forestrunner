@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.layers.CCColorLayer;
 import org.cocos2d.nodes.CCDirector;

@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.common;
+package com.squid.junglerunner.common;
 
 public interface Constants {
 	// Pixel to meters ratio. Box2D uses meters as the unit for measurement.

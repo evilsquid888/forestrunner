@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,21 +31,21 @@ import org.cocos2d.types.CGSize;
 
 import android.view.MotionEvent;
 
-import com.squid.junglerunner.forestrunner.common.Constants;
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Logger;
-import com.squid.junglerunner.forestrunner.data.LevelData;
-import com.squid.junglerunner.forestrunner.data.LevelDataParser;
-import com.squid.junglerunner.forestrunner.manager.LocalDataManager;
-import com.squid.junglerunner.forestrunner.manager.SceneManager;
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
-import com.squid.junglerunner.forestrunner.sprites.Background;
-import com.squid.junglerunner.forestrunner.sprites.Box;
-import com.squid.junglerunner.forestrunner.sprites.Dinosaur;
-import com.squid.junglerunner.forestrunner.sprites.Fire;
-import com.squid.junglerunner.forestrunner.sprites.GameSprite;
-import com.squid.junglerunner.forestrunner.sprites.Runner;
-import com.squid.junglerunner.forestrunner.sprites.Trap;
+import com.squid.junglerunner.common.Constants;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Logger;
+import com.squid.junglerunner.data.LevelData;
+import com.squid.junglerunner.data.LevelDataParser;
+import com.squid.junglerunner.manager.LocalDataManager;
+import com.squid.junglerunner.manager.SceneManager;
+import com.squid.junglerunner.manager.SoundManager;
+import com.squid.junglerunner.sprites.Background;
+import com.squid.junglerunner.sprites.Box;
+import com.squid.junglerunner.sprites.Dinosaur;
+import com.squid.junglerunner.sprites.Fire;
+import com.squid.junglerunner.sprites.GameSprite;
+import com.squid.junglerunner.sprites.Runner;
+import com.squid.junglerunner.sprites.Trap;
 
 public class GameLayer extends CCLayer implements UpdateCallback, GameDelegate {
 

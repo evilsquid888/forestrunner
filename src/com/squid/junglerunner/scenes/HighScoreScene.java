@@ -1,8 +1,8 @@
-package com.squid.junglerunner.forestrunner.scenes;
+package com.squid.junglerunner.scenes;
 
 import org.cocos2d.layers.CCScene;
 
-import com.squid.junglerunner.forestrunner.layers.HighScoreLayer;
+import com.squid.junglerunner.layers.HighScoreLayer;
 
 public class HighScoreScene extends CCScene {
 

@@ -1,10 +1,10 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.opengl.CCBitmapFontAtlas;
 import org.cocos2d.types.ccColor3B;
 
-import com.squid.junglerunner.forestrunner.common.Game;
+import com.squid.junglerunner.common.Game;
 
 public class GameOverLayer extends MenuLayer {
 

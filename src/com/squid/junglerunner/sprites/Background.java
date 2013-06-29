@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import org.cocos2d.actions.instant.CCCallFunc;
 import org.cocos2d.actions.interval.CCMoveTo;

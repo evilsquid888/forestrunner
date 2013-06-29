@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 public class Bridge extends GameSprite {
 

@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.manager;
+package com.squid.junglerunner.manager;
 
 
 public final class GameManager {

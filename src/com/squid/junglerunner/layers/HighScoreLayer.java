@@ -1,12 +1,12 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.opengl.CCBitmapFontAtlas;
 import org.cocos2d.types.ccColor3B;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Levels;
-import com.squid.junglerunner.forestrunner.manager.LocalDataManager;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Levels;
+import com.squid.junglerunner.manager.LocalDataManager;
 
 public class HighScoreLayer extends MenuLayer {
 	public HighScoreLayer() {

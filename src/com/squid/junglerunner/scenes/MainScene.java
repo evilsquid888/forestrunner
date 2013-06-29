@@ -1,10 +1,10 @@
-package com.squid.junglerunner.forestrunner.scenes;
+package com.squid.junglerunner.scenes;
 
 import org.cocos2d.layers.CCScene;
 
-import com.squid.junglerunner.forestrunner.layers.AlertDialog;
-import com.squid.junglerunner.forestrunner.layers.MainGameBackgroundLayer;
-import com.squid.junglerunner.forestrunner.layers.MainGameMenuLayer;
+import com.squid.junglerunner.layers.AlertDialog;
+import com.squid.junglerunner.layers.MainGameBackgroundLayer;
+import com.squid.junglerunner.layers.MainGameMenuLayer;
 
 public class MainScene extends CCScene {
 	public static MainScene scene() {

@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.nodes.CCSpriteFrame;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 
-import com.squid.junglerunner.forestrunner.common.Game;
+import com.squid.junglerunner.common.Game;
 
 public class GameSprite extends CCSprite {
 	public static GameSprite sprite() {

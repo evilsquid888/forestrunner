@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 public class Ground extends GameSprite {
 	public static final int GROUND_L = 1;

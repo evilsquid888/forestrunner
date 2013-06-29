@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner;
+package com.squid.junglerunner;
 
 import android.app.AlertDialog;
 import android.content.Context;

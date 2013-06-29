@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.data;
+package com.squid.junglerunner.data;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 import org.cocos2d.nodes.CCDirector;
 
-import com.squid.junglerunner.forestrunner.common.Logger;
+import com.squid.junglerunner.common.Logger;
 
 public class LevelDataParser {
 	private static final String TAG = "LevelDataParser";

@@ -1,8 +1,8 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.nodes.CCSprite;
 
-import com.squid.junglerunner.forestrunner.sprites.Cloud;
+import com.squid.junglerunner.sprites.Cloud;
 
 /**
  * 主界面 背景

@@ -1,7 +1,7 @@
-package com.squid.junglerunner.forestrunner.common;
+package com.squid.junglerunner.common;
 
-import com.squid.junglerunner.forestrunner.layers.GameDelegate;
-import com.squid.junglerunner.forestrunner.manager.LocalDataManager;
+import com.squid.junglerunner.layers.GameDelegate;
+import com.squid.junglerunner.manager.LocalDataManager;
 
 public final class Game {
 	public static final int LIFE_AMOUNT = 5;
@@ -18,7 +18,7 @@ public final class Game {
 	public static float scale_ratio_x = 1f;
 	public static float scale_ratio_y = 1f;
 
-	public static String more_url = "http://www.baidu.com";
+	public static String more_url = "http://www.google.com";
 
 	public static GameDelegate delegate;
 

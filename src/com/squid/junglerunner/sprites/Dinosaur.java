@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import java.util.ArrayList;
 
@@ -7,8 +7,8 @@ import org.cocos2d.nodes.CCSpriteFrame;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.types.CGPoint;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class Dinosaur extends GameSprite {
 

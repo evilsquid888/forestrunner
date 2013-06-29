@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.menus.CCMenu;
 import org.cocos2d.menus.CCMenuItemSprite;
@@ -9,10 +9,10 @@ import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.opengl.CCBitmapFontAtlas;
 import org.cocos2d.types.CGSize;
 import org.cocos2d.types.ccColor3B;
-import com.squid.junglerunner.forestrunner.common.Constants;
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.manager.LocalDataManager;
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.common.Constants;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.manager.LocalDataManager;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class DifficultyDialog extends AbstractDialog {
 	CCSprite spriteDifficultyNormal;

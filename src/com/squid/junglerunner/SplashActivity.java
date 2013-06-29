@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner;
+package com.squid.junglerunner;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class SplashActivity extends Activity {
 
@@ -30,7 +30,7 @@ public class SplashActivity extends Activity {
 			}
 			SoundManager.sharedSoundManager().preload(getApplicationContext());
 			Intent intent = new Intent();
-			intent.setClass(getApplicationContext(), ForestRunnerActivity.class);
+			intent.setClass(getApplicationContext(), JungleRunnerActivity.class);
 			startActivity(intent);
 			return null;
 		}

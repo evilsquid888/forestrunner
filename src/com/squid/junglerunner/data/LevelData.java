@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.data;
+package com.squid.junglerunner.data;
 
 import java.util.ArrayList;
 

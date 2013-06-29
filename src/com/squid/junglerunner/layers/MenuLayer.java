@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.layers.CCLayer;
 import org.cocos2d.nodes.CCDirector;
@@ -9,8 +9,8 @@ import org.cocos2d.nodes.CCSpriteFrameCache;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class MenuLayer extends CCLayer {
 	protected CCSpriteFrameCache cache;

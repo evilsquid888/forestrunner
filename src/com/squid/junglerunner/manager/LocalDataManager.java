@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.manager;
+package com.squid.junglerunner.manager;
 
 import android.content.Context;
 import android.content.SharedPreferences;

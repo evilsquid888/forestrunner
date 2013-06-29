@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.scenes;
+package com.squid.junglerunner.scenes;
 
 import org.cocos2d.layers.CCScene;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.layers.GameOverLayer;
-import com.squid.junglerunner.forestrunner.layers.GameOverMenuLayer;
-import com.squid.junglerunner.forestrunner.layers.GameOverStarLayer;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.layers.GameOverLayer;
+import com.squid.junglerunner.layers.GameOverMenuLayer;
+import com.squid.junglerunner.layers.GameOverStarLayer;
 
 public class GameOverScene extends CCScene {
 

@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.common;
+package com.squid.junglerunner.common;
 
 import java.io.IOException;
 

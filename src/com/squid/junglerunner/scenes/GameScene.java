@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.scenes;
+package com.squid.junglerunner.scenes;
 
 import org.cocos2d.layers.CCScene;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Levels;
-import com.squid.junglerunner.forestrunner.common.Logger;
-import com.squid.junglerunner.forestrunner.layers.GameLayer;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Levels;
+import com.squid.junglerunner.common.Logger;
+import com.squid.junglerunner.layers.GameLayer;
 
 public class GameScene extends CCScene {
 	private static final String TAG = "GameScene";

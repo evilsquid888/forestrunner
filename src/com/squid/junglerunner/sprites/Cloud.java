@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import org.cocos2d.actions.base.CCRepeatForever;
 import org.cocos2d.actions.instant.CCPlace;
@@ -8,7 +8,7 @@ import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.types.CGPoint;
 
-import com.squid.junglerunner.forestrunner.common.Game;
+import com.squid.junglerunner.common.Game;
 
 public class Cloud extends CCSprite {
 

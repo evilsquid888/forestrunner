@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 public interface GameDelegate {
 

@@ -12,6 +12,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
+
 android {
     compileSdkVersion 8
     buildToolsVersion "17"
@@ -29,4 +30,28 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+
+    signingConfigs {
+        release {
+            storeFile file("/Users/thchen/signing-android/ohsigning")
+            storePassword "password"
+            keyAlias "squids"
+            keyPassword "password"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            debuggable true
+            jniDebugBuild true
+            signingConfig signingConfigs.release
+        }
+    }
+
 }
+
+if (project.hasProperty('keyAlias')) {
+    android.signingConfigs.release.keyAlias = keyAlias
+}
+

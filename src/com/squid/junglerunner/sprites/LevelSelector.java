@@ -1,11 +1,11 @@
-package com.squid.junglerunner.forestrunner.sprites;
+package com.squid.junglerunner.sprites;
 
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.nodes.CCSpriteFrame;
 import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.types.CGSize;
 
-import com.squid.junglerunner.forestrunner.common.Constants;
+import com.squid.junglerunner.common.Constants;
 
 public class LevelSelector extends CCSprite {
 

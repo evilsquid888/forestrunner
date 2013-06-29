@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.menus.CCMenu;
 import org.cocos2d.menus.CCMenuItemSprite;
@@ -6,10 +6,10 @@ import org.cocos2d.nodes.CCNode;
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.types.CGPoint;
 
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.common.Levels;
-import com.squid.junglerunner.forestrunner.manager.SceneManager;
-import com.squid.junglerunner.forestrunner.manager.SoundManager;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.common.Levels;
+import com.squid.junglerunner.manager.SceneManager;
+import com.squid.junglerunner.manager.SoundManager;
 
 public class GameOverMenuLayer extends MenuLayer {
 

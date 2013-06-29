@@ -1,4 +1,4 @@
-package com.squid.junglerunner.forestrunner.layers;
+package com.squid.junglerunner.layers;
 
 import org.cocos2d.menus.CCMenu;
 import org.cocos2d.menus.CCMenuItemSprite;
@@ -9,7 +9,7 @@ import org.cocos2d.nodes.CCSpriteFrameCache;
 import org.cocos2d.opengl.CCBitmapFontAtlas;
 import org.cocos2d.types.CGSize;
 
-import com.squid.junglerunner.forestrunner.common.Game;
+import com.squid.junglerunner.common.Game;
 
 public class AlertDialog extends AbstractDialog {
 

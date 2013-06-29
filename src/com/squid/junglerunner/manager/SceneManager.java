@@ -1,18 +1,18 @@
-package com.squid.junglerunner.forestrunner.manager;
+package com.squid.junglerunner.manager;
 
 import org.cocos2d.layers.CCScene;
 import org.cocos2d.nodes.CCDirector;
 
 import android.content.Intent;
 
-import com.squid.junglerunner.forestrunner.common.Constants;
-import com.squid.junglerunner.forestrunner.common.Game;
-import com.squid.junglerunner.forestrunner.scenes.DifficultyScene;
-import com.squid.junglerunner.forestrunner.scenes.GameOverScene;
-import com.squid.junglerunner.forestrunner.scenes.GameScene;
-import com.squid.junglerunner.forestrunner.scenes.HighScoreScene;
-import com.squid.junglerunner.forestrunner.scenes.LevelSelectScene;
-import com.squid.junglerunner.forestrunner.scenes.MainScene;
+import com.squid.junglerunner.common.Constants;
+import com.squid.junglerunner.common.Game;
+import com.squid.junglerunner.scenes.DifficultyScene;
+import com.squid.junglerunner.scenes.GameOverScene;
+import com.squid.junglerunner.scenes.GameScene;
+import com.squid.junglerunner.scenes.HighScoreScene;
+import com.squid.junglerunner.scenes.LevelSelectScene;
+import com.squid.junglerunner.scenes.MainScene;
 
 /**
  * Using to management scenes: MainMenu Scene, Stage Scene, Game Scene, GameOver

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.squid.junglerunner.forestrunner"
+    package="com.squid.junglerunner"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,7 +22,7 @@
         </activity>
         <activity
             android:configChanges="orientation"
-            android:name=".ForestRunnerActivity"
+            android:name="JungleRunnerActivity"
             android:screenOrientation="landscape" />
         <activity
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|touchscreen|navigation|fontScale"
